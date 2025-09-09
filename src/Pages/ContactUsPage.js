@@ -5,12 +5,14 @@ export default function ContactUsPage() {
   return (
     <div className="bg-gray-50 text-gray-800">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-yellow-100 to-yellow-50 py-16 px-6 text-center">
-        <h1 className="text-3xl md:text-4xl font-bold mb-4">Contact Us</h1>
-        <p className="max-w-2xl mx-auto text-lg text-gray-700">
+      <section className="bg-gradient-to-br from-[#800000] to-[#bf0000] py-16 px-6 text-center">
+        <h1 className="text-3xl md:text-4xl text-white font-bold mb-4">
+          Contact Us
+        </h1>
+        <p className="max-w-2xl mx-auto text-lg text-white">
           Have questions? Need support? We’re here to help you with anything
           related to your Gold & Silver journey at{" "}
-          <span className="font-semibold">CashForGold</span>.
+          <span className="font-semibold">Cash For Gold</span>.
         </p>
       </section>
 
@@ -90,7 +92,7 @@ export default function ContactUsPage() {
 
             <button
               type="submit"
-              className="bg-yellow-600 text-white px-6 py-3 rounded-lg shadow hover:bg-yellow-700 transition"
+              className="bg-gradient-to-br from-[#800000] to-[#bf0000]  text-white px-6 py-3 rounded-lg shadow hover:bg-yellow-700 transition"
             >
               Send Message
             </button>
@@ -110,14 +112,14 @@ export default function ContactUsPage() {
             allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="CashForGold Location"
+            title="Cash For Gold Location"
             className="rounded-2xl"
           ></iframe>
         </div>
       </section>
 
       {/* Call to Action */}
-      <section className="bg-gradient-to-r from-yellow-200 to-yellow-100 py-12 px-6 text-center">
+      <section className="bg-gradient-to-r from-pink-200 to-pink-100 py-12 px-6 text-center">
         <h2 className="text-xl md:text-2xl font-bold mb-4">
           Need Immediate Assistance?
         </h2>
@@ -127,19 +129,19 @@ export default function ContactUsPage() {
         <div className="flex justify-center gap-6">
           <a
             href="tel:+918062281387"
-            className="bg-yellow-600 text-white px-6 py-3 rounded-lg shadow hover:bg-yellow-700 transition"
+            className="bg-gradient-to-br from-[#800000] to-[#bf0000] text-white px-6 py-3 rounded-lg shadow hover:bg-yellow-700 transition"
           >
             Call Now
           </a>
           <a
-            href="mailto:support@cashforgold.com"
+            href="mailto:support@Cash For Gold.com"
             className="bg-gray-900 text-white px-6 py-3 rounded-lg shadow hover:opacity-90"
           >
             Email Us
           </a>
         </div>
+        <div className="h-10 "></div>
       </section>
-      <div className="h-20 bg-gradient-to-r from-yellow-200 to-yellow-100"></div>
     </div>
   );
 }

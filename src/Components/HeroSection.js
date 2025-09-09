@@ -31,7 +31,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="bg-[#b54d4d] text-white py-16">
+    <section className="bg-gradient-to-br from-[#800000] to-[#bf0000] text-white py-16">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center px-6">
         {/* Left Side */}
         <div>
@@ -39,18 +39,9 @@ export default function Hero() {
             India’s Most Trusted <br /> Digital Platform for Gold & Silver
           </h1>
           <p className="text-lg mb-6">
-            We at CashForGold want to make your Gold & Silver journey Simple,
+            We at Cash For Gold want to make your Gold & Silver journey Simple,
             Transparent, and Digital.
           </p>
-
-          <div className="flex space-x-4">
-            <a href="#">
-              <img src="/googleplay.png" alt="Google Play" className="h-12" />
-            </a>
-            <a href="#">
-              <img src="/appstore.png" alt="App Store" className="h-12" />
-            </a>
-          </div>
         </div>
 
         {/* Right Side (Card) */}

@@ -13,7 +13,7 @@ export default function HowToSellYourOldJewellery() {
       icon: <Hourglass className="w-10 h-10 text-gray-700" />,
       title: "Transparency and Trust",
       description:
-        "All CashForGold ‘Purity Verification Centres’ ensure you get transparent service by melting your gold in front of you after weighing and testing the quality of your gold.",
+        "All Cash For Gold ‘Purity Verification Centres’ ensure you get transparent service by melting your gold in front of you after weighing and testing the quality of your gold.",
     },
     {
       icon: <ClipboardCheck className="w-10 h-10 text-gray-700" />,

@@ -51,10 +51,10 @@ export default function ServicesPage() {
   return (
     <div className="bg-gray-50 text-gray-800">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-yellow-100 to-yellow-50 py-16 px-6 text-center">
-        <h1 className="text-3xl md:text-4xl font-bold mb-4">Our Services</h1>
-        <p className="max-w-2xl mx-auto text-lg text-gray-700">
-          At <span className="font-semibold">CashForGold</span>, we provide a
+      <section className="bg-gradient-to-br from-[#800000] to-[#bf0000] py-16 px-6 text-center">
+        <h1 className="text-3xl md:text-4xl font-bold mb-4 text-white">Our Services</h1>
+        <p className="max-w-2xl mx-auto text-lg  text-white">
+          At <span className="font-semibold">Cash For Gold</span>, we provide a
           wide range of services to make your gold and silver journey{" "}
           <strong>Simple, Transparent, and Digital</strong>.
         </p>
@@ -81,7 +81,7 @@ export default function ServicesPage() {
       </section>
 
       {/* Call to Action */}
-      <section className="bg-gradient-to-r from-yellow-200 to-yellow-100 py-12 px-6 text-center">
+      <section className="bg-gradient-to-r from-pink-200 to-pink-100 py-12 px-6 text-center">
         <h2 className="text-xl md:text-2xl font-bold mb-4">
           Start Your Gold & Silver Journey Today
         </h2>
@@ -97,8 +97,9 @@ export default function ServicesPage() {
             App Store
           </button>
         </div>
+        <div className="h-10"></div>
       </section>
-      <div className="h-20 bg-gradient-to-r from-yellow-200 to-yellow-100"></div>
+      
     </div>
   );
 }

@@ -9,17 +9,13 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="bg-pink-100  text-gray-800">
+    <footer className="bg-[#400000]  text-white">
       {/* Top Section */}
-      <div className="bg-gradient-to-r from-yellow-400 to-yellow-300 -translate-y-1/2 mx-10 p-6 rounded-t-2xl text-white">
+      <div className="bg-gradient-to-br from-[#800000] to-[#bf0000] -translate-y-1/2 mx-10 p-6 rounded-t-2xl text-white">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center">
-          <h2 className="text-2xl md:text-3xl font-bold max-w-xl">
+          <h2 className="text-2xl md:text-3xl font-bold w-full text-center">
             India’s Most Trusted Digital Platform for Gold & Silver.
           </h2>
-          <div className="flex space-x-4 mt-6 md:mt-0">
-            <img src="/googleplay.png" alt="Google Play" className="h-12" />
-            <img src="/appstore.png" alt="App Store" className="h-12" />
-          </div>
         </div>
       </div>
 
@@ -28,12 +24,12 @@ export default function Footer() {
         {/* Brand Info */}
         <div>
           <img
-            src="/digigold-logo.png"
-            alt="CashForGold"
-            className="h-10 mb-4"
+            src="/logo.jpeg"
+            alt="Cash For Gold"
+            className="h-32 mb-4 rounded-md"
           />
           <p className="text-sm mb-4">
-            We at CashForGold want to make your Gold & Silver journey Simple,
+            We at Cash For Gold want to make your Gold & Silver journey Simple,
             Transparent, and Digital.
           </p>
           <p className="text-sm mb-2 font-semibold">Powered by</p>

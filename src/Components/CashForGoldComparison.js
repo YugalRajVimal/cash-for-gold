@@ -42,7 +42,7 @@ export default function CashForGoldComparison() {
           The Cash for Gold Advantage
         </h2>
         <p className="text-gray-600 max-w-2xl mx-auto">
-          See how CashForGold stands out from traditional gold buyers with our
+          See how Cash For Gold stands out from traditional gold buyers with our
           transparent and fair process.
         </p>
       </div>
@@ -101,9 +101,7 @@ export default function CashForGoldComparison() {
           </div>
         ))}
       </div>
-      <div className="h-40 md:h-0">
-
-      </div>
+      <div className="h-40 md:h-0"></div>
     </section>
   );
 }

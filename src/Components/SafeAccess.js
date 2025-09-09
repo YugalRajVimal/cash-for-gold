@@ -29,9 +29,9 @@ export default function SafeAccess() {
             <span className="text-gray-600">Silver</span>
           </h2>
           <p className="text-gray-700 mb-8">
-            We at CashForGold want to make your gold journey simple, transparent
-            and trustworthy so that you can get the optimum output of your
-            savings.
+            We at Cash For Gold want to make your gold journey simple,
+            transparent and trustworthy so that you can get the optimum output
+            of your savings.
           </p>
 
           {/* Features */}

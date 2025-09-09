@@ -14,7 +14,7 @@ export default function AboutUsPage() {
       icon: <TrendingUp className="w-8 h-8 text-yellow-600" />,
       title: "Affordability",
       description:
-        "CashForGold offers the best price for all products compared to live market rates.",
+        "Cash For Gold offers the best price for all products compared to live market rates.",
     },
     {
       icon: <RefreshCw className="w-8 h-8 text-yellow-600" />,
@@ -38,7 +38,7 @@ export default function AboutUsPage() {
       icon: <Globe className="w-8 h-8 text-yellow-600" />,
       title: "Accessibility",
       description:
-        "CashForGold offers services to customers 24x7 globally, anytime, anywhere.",
+        "Cash For Gold offers services to customers 24x7 globally, anytime, anywhere.",
     },
     {
       icon: <ShieldCheck className="w-8 h-8 text-yellow-600" />,
@@ -51,13 +51,13 @@ export default function AboutUsPage() {
   return (
     <div className="bg-gray-50 text-gray-800">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-yellow-100 to-yellow-50 py-16 px-6 text-center">
-        <h1 className="text-3xl md:text-4xl font-bold mb-4">
+      <section className="bg-gradient-to-br from-[#800000] to-[#bf0000] py-16 px-6 text-center">
+        <h1 className="text-3xl md:text-4xl font-bold mb-4 text-white">
           India’s Most Trusted Digital Platform for Gold & Silver
         </h1>
-        <p className="max-w-2xl mx-auto text-lg text-gray-700">
-          We at <span className="font-semibold">CashForGold</span> want to make
-          your Gold & Silver journey{" "}
+        <p className="max-w-2xl mx-auto text-lg  text-white">
+          We at <span className="font-semibold">Cash For Gold</span> want to
+          make your Gold & Silver journey{" "}
           <strong>Simple, Transparent, and Digital</strong>.
         </p>
       </section>
@@ -66,7 +66,7 @@ export default function AboutUsPage() {
       <section className="py-16 px-6 md:px-16 max-w-5xl mx-auto">
         <h2 className="text-2xl md:text-3xl font-bold mb-6">About Us</h2>
         <p className="text-gray-700 leading-relaxed mb-6">
-          CashForGold is India’s most trusted digital platform for gold and
+          Cash For Gold is India’s most trusted digital platform for gold and
           silver where you can buy, sell, and store online at live market rates.
           The minimum purchase starts from just ₹1. We also offer{" "}
           <strong>No Lock-in Period SIP in Gold</strong> starting at just ₹500
@@ -79,10 +79,10 @@ export default function AboutUsPage() {
         </p>
       </section>
 
-      {/* Why CashForGold */}
+      {/* Why Cash For Gold */}
       <section className="bg-white py-16 px-6 md:px-16">
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">
-          Why Choose CashForGold
+          Why Choose Cash For Gold
         </h2>
         <div className="grid md:grid-cols-3 gap-8">
           {whyUs.map((item, idx) => (
@@ -107,9 +107,9 @@ export default function AboutUsPage() {
       </section>
 
       {/* Call to Action */}
-      <section className="bg-gradient-to-r from-yellow-200 to-yellow-100 py-12 px-6 text-center">
+      <section className="bg-gradient-to-r from-pink-200 to-pink-100 py-12 px-6 text-center">
         <h2 className="text-xl md:text-2xl font-bold mb-4">
-          Join Thousands Who Trust CashForGold
+          Join Thousands Who Trust Cash For Gold
         </h2>
         <p className="text-gray-700 mb-6">
           Download our app and start your gold & silver journey today.
@@ -122,8 +122,8 @@ export default function AboutUsPage() {
             App Store
           </button>
         </div>
+        <div className="h-10 "></div>
       </section>
-      <div className="h-20 bg-gradient-to-r from-yellow-200 to-yellow-100"></div>
     </div>
   );
 }
