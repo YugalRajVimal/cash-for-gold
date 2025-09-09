@@ -24,7 +24,7 @@ export default function Footer() {
       </div>
 
       {/* Middle Section */}
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10 px-6 py-12 relative">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10 px-6 pb-4 md:py-12 relative">
         {/* Brand Info */}
         <div>
           <img
@@ -84,8 +84,8 @@ export default function Footer() {
         </div>
 
         {/* Social Icons */}
-        <div className="absolute right-6 top-1/2 transform -translate-y-1/2 flex flex-col space-y-3">
-          <a href="#">
+        {/* <div className="absolute w-full md:w-auto -top-10 md:right-6 md:top-1/2 transform -translate-y-1/2 flex md:flex-col items-start justify-center  gap-4 space-y-3">
+          <a href="#" className="">
             <Facebook size={20} className="text-rose-700" />
           </a>
           <a href="#">
@@ -103,7 +103,7 @@ export default function Footer() {
           <a href="#">
             <MessageCircle size={20} className="text-rose-700" />
           </a>
-        </div>
+        </div> */}
       </div>
 
       {/* Bottom Section */}
