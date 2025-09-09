@@ -14,7 +14,7 @@ export default function AboutUs() {
             <img
               src="/aboutUsImg2.webp"
               alt="Gold Products"
-              className="max-w-sm rounded-xl shadow-lg"
+              className=" rounded-xl shadow-lg"
             />
           </div>
 

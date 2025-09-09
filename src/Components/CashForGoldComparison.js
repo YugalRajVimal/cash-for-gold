@@ -42,21 +42,31 @@ export default function CashForGoldComparison() {
           The Cash for Gold Advantage
         </h2>
         <p className="text-gray-600 max-w-2xl mx-auto">
-          See how CashForGold stands out from traditional gold buyers with our transparent and fair process.
+          See how CashForGold stands out from traditional gold buyers with our
+          transparent and fair process.
         </p>
       </div>
 
-      <div className="max-w-5xl mx-auto shadow-lg rounded-2xl overflow-hidden bg-white">
+      {/* Desktop Table */}
+      <div className="hidden md:block max-w-5xl mx-auto shadow-lg rounded-2xl overflow-hidden bg-white">
         <div className="grid grid-cols-3 text-sm md:text-base">
           {/* Header Row */}
-          <div className="bg-gray-50 p-4 font-semibold text-gray-700 text-left">Features</div>
-          <div className="bg-gray-50 p-4 font-semibold text-center text-gray-700 border-l border-gray-200">Cash for Gold</div>
-          <div className="bg-gray-50 p-4 font-semibold text-center text-gray-700 border-l border-gray-200">Traditional Players</div>
+          <div className="bg-gray-50 p-4 font-semibold text-gray-700 text-left">
+            Features
+          </div>
+          <div className="bg-gray-50 p-4 font-semibold text-center text-gray-700 border-l border-gray-200">
+            Cash for Gold
+          </div>
+          <div className="bg-gray-50 p-4 font-semibold text-center text-gray-700 border-l border-gray-200">
+            Traditional Players
+          </div>
 
           {/* Feature Rows */}
           {features.map((item, idx) => (
             <React.Fragment key={idx}>
-              <div className="p-4 border-t border-gray-200 font-medium text-gray-800">{item.title}</div>
+              <div className="p-4 border-t border-gray-200 font-medium text-gray-800">
+                {item.title}
+              </div>
               <div className="p-4 border-t border-gray-200 border-l border-gray-200 flex items-start gap-2 text-green-600">
                 <Check className="w-5 h-5 flex-shrink-0 mt-0.5" />
                 <span className="text-gray-700">{item.cashForGold}</span>
@@ -68,6 +78,31 @@ export default function CashForGoldComparison() {
             </React.Fragment>
           ))}
         </div>
+      </div>
+
+      {/* Mobile Stacked View */}
+      <div className="md:hidden space-y-6 max-w-2xl mx-auto">
+        {features.map((item, idx) => (
+          <div
+            key={idx}
+            className="bg-white rounded-2xl shadow-sm p-6 space-y-4"
+          >
+            <h3 className="font-semibold text-lg text-gray-800">
+              {item.title}
+            </h3>
+            <div className="flex items-start gap-2 text-green-600">
+              <Check className="w-5 h-5 flex-shrink-0 mt-0.5" />
+              <span className="text-gray-700">{item.cashForGold}</span>
+            </div>
+            <div className="flex items-start gap-2 text-red-600">
+              <X className="w-5 h-5 flex-shrink-0 mt-0.5" />
+              <span className="text-gray-700">{item.traditional}</span>
+            </div>
+          </div>
+        ))}
+      </div>
+      <div className="h-40 md:h-0">
+
       </div>
     </section>
   );
