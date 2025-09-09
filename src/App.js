@@ -9,6 +9,9 @@ import WhyDigiGold from "./Components/WhyDigiGold";
 import Footer from "./Components/Footer";
 import HowToSellYourOldJewellery from "./Components/HowToSellYouOldJwellery";
 import CashForGoldComparison from "./Components/CashForGoldComparison";
+import AboutUsPage from "./Pages/AboutUsPage";
+import ServicesPage from "./Pages/ServicesPage";
+import ContactUsPage from "./Pages/ContactUsPage";
 
 const App = () => {
   return (
@@ -29,6 +32,10 @@ const App = () => {
             </>
           }
         />
+
+        <Route path="/about-us" element={<AboutUsPage />} />
+        <Route path="/services" element={<ServicesPage />} />
+        <Route path="/contact-us" element={<ContactUsPage />} />
       </Routes>
       <Footer />
     </Router>

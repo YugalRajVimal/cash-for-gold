@@ -10,46 +10,31 @@ export default function Navbar() {
         {/* Links */}
         <ul className="hidden md:flex space-x-6 text-gray-700 font-medium">
           <li>
-            <a href="#" className="hover:text-yellow-600">
-              Buy Gold
+            <a href="/" className="hover:text-yellow-600">
+              Home
             </a>
           </li>
           <li>
-            <a href="#" className="hover:text-yellow-600">
-              Buy Silver
+            <a href="/about-us" className="hover:text-yellow-600">
+              About Us
             </a>
           </li>
           <li>
-            <a href="#" className="hover:text-yellow-600">
-              Sell
+            <a href="/services" className="hover:text-yellow-600">
+              Services
             </a>
           </li>
           <li>
-            <a href="#" className="hover:text-yellow-600">
-              SIP
-            </a>
-          </li>
-          <li>
-            <a href="#" className="hover:text-yellow-600">
-              Coins & Bars
-            </a>
-          </li>
-          <li>
-            <a href="#" className="hover:text-yellow-600">
-              Gift
-            </a>
-          </li>
-          <li>
-            <a href="#" className="hover:text-yellow-600">
-              Partner with us
+            <a href="/contact-us" className="hover:text-yellow-600">
+              Contact Us
             </a>
           </li>
         </ul>
 
         {/* Login Button */}
-        <button className="bg-rose-700 hover:bg-rose-800 text-white px-5 py-2 rounded-full">
+        {/* <button className="bg-rose-700 hover:bg-rose-800 text-white px-5 py-2 rounded-full">
           Login
-        </button>
+        </button> */}
       </div>
     </nav>
   );
