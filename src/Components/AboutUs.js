@@ -22,7 +22,7 @@ export default function AboutUs() {
           <div>
             <h3 className="text-2xl font-bold text-[#b54d4d] mb-4">About Us</h3>
             <p className="text-gray-700 mb-4 leading-relaxed">
-              DigiGold is India’s most trusted digital platform for gold and
+              CashForGold is India’s most trusted digital platform for gold and
               silver where you can buy, sell and store online at live market
               rates. The minimum amount of purchase starts from just Rs 1. We
               also offer No locking period SIP in Gold with just starting Rs.

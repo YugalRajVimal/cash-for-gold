@@ -11,7 +11,7 @@ const features = [
   {
     icon: <IndianRupee size={40} strokeWidth={1.5} />,
     title: "Affordability",
-    desc: "DIGIGOLD offers the best price for all products compare to live market rates.",
+    desc: "CashForGold offers the best price for all products compare to live market rates.",
   },
   {
     icon: <BarChart3 size={40} strokeWidth={1.5} />,
@@ -31,20 +31,22 @@ const features = [
   {
     icon: <Clock size={40} strokeWidth={1.5} />,
     title: "Accessibility",
-    desc: "DIGIGOLD provides all services for its customers 24x7 Globally.",
+    desc: "CashForGold provides all services for its customers 24x7 Globally.",
   },
   {
     icon: <Wallet size={40} strokeWidth={1.5} />,
     title: "High Liquidity",
-    desc: "With DIGIGOLD you can buy, sell, gift, and store anywhere, anytime - online.",
+    desc: "With CashForGold you can buy, sell, gift, and store anywhere, anytime - online.",
   },
 ];
 
 export default function WhyDigiGold() {
   return (
-    <section className="bg-[#b54d4d] text-white pt-16 pb-40 ">
+    <section className="bg-[#b54d4d] text-white py-16">
       <div className="max-w-7xl mx-auto px-6">
-        <h2 className="text-3xl md:text-4xl font-bold mb-12 font-serif">Why DigiGold</h2>
+        <h2 className="text-3xl md:text-4xl font-bold mb-12 font-serif">
+          Why CashForGold
+        </h2>
 
         <div className="grid md:grid-cols-3 gap-10">
           {features.map((item, idx) => (

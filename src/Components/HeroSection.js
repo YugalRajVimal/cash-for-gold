@@ -39,7 +39,7 @@ export default function Hero() {
             India’s Most Trusted <br /> Digital Platform for Gold & Silver
           </h1>
           <p className="text-lg mb-6">
-            We at DIGIGOLD want to make your Gold & Silver journey Simple,
+            We at CashForGold want to make your Gold & Silver journey Simple,
             Transparent, and Digital.
           </p>
 

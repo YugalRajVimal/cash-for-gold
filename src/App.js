@@ -7,6 +7,8 @@ import TrustSupport from "./Components/TrustSupport";
 import AboutUs from "./Components/AboutUs";
 import WhyDigiGold from "./Components/WhyDigiGold";
 import Footer from "./Components/Footer";
+import HowToSellYourOldJewellery from "./Components/HowToSellYouOldJwellery";
+import CashForGoldComparison from "./Components/CashForGoldComparison";
 
 const App = () => {
   return (
@@ -22,6 +24,8 @@ const App = () => {
               <TrustSupport />
               <AboutUs />
               <WhyDigiGold />
+              <HowToSellYourOldJewellery />
+              <CashForGoldComparison />
             </>
           }
         />

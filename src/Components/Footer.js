@@ -27,9 +27,13 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10 px-6 py-12 relative">
         {/* Brand Info */}
         <div>
-          <img src="/digigold-logo.png" alt="DigiGold" className="h-10 mb-4" />
+          <img
+            src="/digigold-logo.png"
+            alt="CashForGold"
+            className="h-10 mb-4"
+          />
           <p className="text-sm mb-4">
-            We at DIGIGOLD want to make your Gold & Silver journey Simple,
+            We at CashForGold want to make your Gold & Silver journey Simple,
             Transparent, and Digital.
           </p>
           <p className="text-sm mb-2 font-semibold">Powered by</p>
@@ -76,7 +80,7 @@ export default function Footer() {
             Ashram Road, Ahmedabad -380009.
           </p>
           <p className="text-sm mt-4 font-bold">+91 80 6228 1387</p>
-          <p className="text-sm mt-2">support@digigold.com</p>
+          <p className="text-sm mt-2">support@cashforgold.com</p>
         </div>
 
         {/* Social Icons */}
@@ -104,7 +108,7 @@ export default function Footer() {
 
       {/* Bottom Section */}
       <div className="border-t border-yellow-400 py-4 text-center text-sm text-gray-600">
-        <p>Copyright © 2020 DigiGold.com All Rights Reserved</p>
+        <p>Copyright © 2020 CashForGold.com All Rights Reserved</p>
         <p className="mt-1">Website & App Managed by Fleek Media</p>
       </div>
     </footer>
