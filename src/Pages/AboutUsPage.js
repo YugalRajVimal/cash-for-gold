@@ -108,20 +108,15 @@ export default function AboutUsPage() {
 
       {/* Call to Action */}
       <section className="bg-gradient-to-r from-pink-200 to-pink-100 py-12 px-6 text-center">
-        <h2 className="text-xl md:text-2xl font-bold mb-4">
+        <h2 className="text-xl md:text-2xl font-bold mb-8">
           Join Thousands Who Trust Cash For Gold
         </h2>
-        <p className="text-gray-700 mb-6">
-          Download our app and start your gold & silver journey today.
-        </p>
-        <div className="flex justify-center gap-4">
-          <button className="bg-black text-white px-6 py-3 rounded-lg shadow hover:opacity-90">
-            Google Play
-          </button>
-          <button className="bg-black text-white px-6 py-3 rounded-lg shadow hover:opacity-90">
-            App Store
-          </button>
-        </div>
+        <a
+          href="/contact-us"
+          className="px-6 py-3 border border-[#b54d4d] text-[#b54d4d] rounded-full hover:bg-red-500 hover:text-white transition"
+        >
+          Join Us
+        </a>
         <div className="h-10 "></div>
       </section>
     </div>

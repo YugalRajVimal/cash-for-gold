@@ -12,9 +12,9 @@ export default function AboutUs() {
           {/* Left Image */}
           <div className="flex justify-center">
             <img
-              src="/aboutUsImg2.webp"
+              src="/goldCoinBag.svg"
               alt="Gold Products"
-              className="rounded-xl "
+              className="rounded-xl"
             />
           </div>
 
@@ -32,9 +32,12 @@ export default function AboutUs() {
               We assure you of the quality by serving 24 Karat Pure Gold of
               99.9% purity with certifications.
             </p>
-            <button className="px-6 py-3 border border-[#b54d4d] text-[#b54d4d] rounded-full hover:bg-[#b54d4d] hover:text-white transition">
+            <a
+              href="/about-us"
+              className="px-6 py-3 border border-[#b54d4d] text-[#b54d4d] rounded-full hover:bg-[#b54d4d] hover:text-white transition"
+            >
               Read More
-            </button>
+            </a>
           </div>
         </div>
       </div>

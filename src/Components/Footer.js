@@ -32,10 +32,6 @@ export default function Footer() {
             We at Cash For Gold want to make your Gold & Silver journey Simple,
             Transparent, and Digital.
           </p>
-          <p className="text-sm mb-2 font-semibold">Powered by</p>
-          <img src="/amrapali.png" alt="Amrapali" className="h-8 mb-4" />
-          <p className="text-sm mb-2 font-semibold">Preferred Refinery</p>
-          <img src="/gujarat-gold-centre.png" alt="GGC" className="h-8" />
         </div>
 
         {/* Quick Links */}
@@ -105,7 +101,17 @@ export default function Footer() {
       {/* Bottom Section */}
       <div className="border-t border-yellow-400 py-4 text-center text-sm text-gray-600">
         <p>Copyright © 2020 CashForGold.com All Rights Reserved</p>
-        <p className="mt-1">Website & App Managed by Fleek Media</p>
+        <p className="mt-1">
+          Website Managed by{" "}
+          <a
+            href="https://gowappily.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline text-yellow-600"
+          >
+            GoWappily.com
+          </a>
+        </p>
       </div>
     </footer>
   );

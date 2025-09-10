@@ -9,7 +9,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="w-full  shadow-sm h-[10vh] relative z-50 ">
+    <nav className="w-full bg-[#d9d9d9]  shadow-sm h-[10vh] relative z-50 ">
       <div className="max-w-7xl mx-auto flex items-center h-full justify-between px-6 ">
         {/* Logo */}
         <div className="flex items-center space-x-2 h-full">
@@ -17,24 +17,24 @@ export default function Navbar() {
         </div>
 
         {/* Desktop Links */}
-        <ul className="hidden md:flex space-x-6 text-gray-700 font-medium">
+        <ul className="hidden md:flex space-x-6 text-black font-medium">
           <li>
-            <a href="/" className="hover:text-yellow-600">
+            <a href="/" className="hover:text-red-800">
               Home
             </a>
           </li>
           <li>
-            <a href="/about-us" className="hover:text-yellow-600">
+            <a href="/about-us" className="hover:text-red-800">
               About Us
             </a>
           </li>
           <li>
-            <a href="/services" className="hover:text-yellow-600">
+            <a href="/services" className="hover:text-red-800">
               Services
             </a>
           </li>
           <li>
-            <a href="/contact-us" className="hover:text-yellow-600">
+            <a href="/contact-us" className="hover:text-red-800">
               Contact Us
             </a>
           </li>
@@ -57,7 +57,7 @@ export default function Navbar() {
               <li>
                 <a
                   href="/"
-                  className="hover:text-yellow-600"
+                  className="hover:text-red-800"
                   onClick={toggleMenu}
                 >
                   Home
@@ -66,7 +66,7 @@ export default function Navbar() {
               <li>
                 <a
                   href="/about-us"
-                  className="hover:text-yellow-600"
+                  className="hover:text-red-800"
                   onClick={toggleMenu}
                 >
                   About Us
@@ -75,7 +75,7 @@ export default function Navbar() {
               <li>
                 <a
                   href="/services"
-                  className="hover:text-yellow-600"
+                  className="hover:text-red-600"
                   onClick={toggleMenu}
                 >
                   Services
@@ -84,7 +84,7 @@ export default function Navbar() {
               <li>
                 <a
                   href="/contact-us"
-                  className="hover:text-yellow-600"
+                  className="hover:text-red-600"
                   onClick={toggleMenu}
                 >
                   Contact Us

@@ -52,7 +52,9 @@ export default function ServicesPage() {
     <div className="bg-gray-50 text-gray-800">
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-[#800000] to-[#bf0000] py-16 px-6 text-center">
-        <h1 className="text-3xl md:text-4xl font-bold mb-4 text-white">Our Services</h1>
+        <h1 className="text-3xl md:text-4xl font-bold mb-4 text-white">
+          Our Services
+        </h1>
         <p className="max-w-2xl mx-auto text-lg  text-white">
           At <span className="font-semibold">Cash For Gold</span>, we provide a
           wide range of services to make your gold and silver journey{" "}
@@ -82,24 +84,17 @@ export default function ServicesPage() {
 
       {/* Call to Action */}
       <section className="bg-gradient-to-r from-pink-200 to-pink-100 py-12 px-6 text-center">
-        <h2 className="text-xl md:text-2xl font-bold mb-4">
+        <h2 className="text-xl md:text-2xl font-bold mb-8">
           Start Your Gold & Silver Journey Today
         </h2>
-        <p className="text-gray-700 mb-6">
-          Download our app and access all services — Buy, Sell, SIP, Gift, and
-          Store — instantly.
-        </p>
-        <div className="flex justify-center gap-4">
-          <button className="bg-black text-white px-6 py-3 rounded-lg shadow hover:opacity-90">
-            Google Play
-          </button>
-          <button className="bg-black text-white px-6 py-3 rounded-lg shadow hover:opacity-90">
-            App Store
-          </button>
-        </div>
+        <a
+          href="/contact-us"
+          className="px-6 py-3 border border-[#b54d4d] text-[#b54d4d] rounded-full hover:bg-red-500 hover:text-white transition"
+        >
+          Start your Journey
+        </a>
         <div className="h-10"></div>
       </section>
-      
     </div>
   );
 }

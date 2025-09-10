@@ -6,7 +6,7 @@ export default function SafeAccess() {
         <div className="flex justify-center">
           <div className="relative text-center">
             <img
-              src="/safeImg.png"
+              src="/safeImg.svg"
               alt="Reserving Shield"
               className="h-auto sm:h-[300px] md:h-[500px] mx-auto"
             />
